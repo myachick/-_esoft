@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>задание_1</title>
+
+  <style>
+    
+  </style>
+
+  
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Домик</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 50px 0;
+            background: #f0f0f0; /* Фон */
+            min-height: 100vh;
+        }
+
+        .house {
+            position: relative;
+            width: 300px;
+            height: 300px;
+        }
+
+        /* Основание дома */
+        .base {
+            position: absolute;
+            bottom: 0;
+            left: 50px;
+            width: 200px;
+            height: 150px;
+            background: #8B4513;
+            border-radius: 5px;
+        }
+
+        /* Крыша */
+        .roof {
+            position: absolute;
+            bottom: 150px;
+            left: 50px;
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-bottom: 80px solid #A52A2A;
+        }
+
+        .window {
+            position: absolute;
+            top: 50px;
+            left: 75px;
+            width: 50px;
+            height: 50px;
+            background: #87CEEB;
+            border-radius: 50%;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        /* Дымоход */
+        .chimney {
+            position: absolute;
+            bottom: 190px; 
+            left: 160px;
+            width: 30px;
+            height: 60px;
+            background: #696969;
+            transform: rotate(2deg);
+        }
+
+        .door {
+            position: absolute;
+            bottom: 0;
+            left: 30px;
+            width: 40px;
+            height: 70px;
+            background: #4A2502;
+            border-radius: 3px 3px 0 0;
+        }
+
+        .door-knob {
+            position: absolute;
+            right: 5px;
+            top: 30px;
+            width: 6px;
+            height: 6px;
+            background: #FFD700;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="house">
+            <div class="chimney"></div>
+            <div class="roof"></div>
+            <div class="base">
+                <div class="window"></div>
+                <div class="door">
+                    <div class="door-knob"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+  <script>
+    
+  </script>
+</body>
+</html>
